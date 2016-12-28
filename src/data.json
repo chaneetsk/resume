@@ -1,0 +1,57 @@
+{
+  "title": "Sanjeet Kanwar",
+  "add": "28 Hill St, Carlton, NSW 2218",
+  "tel": "0405373619",
+  "email": "hey@sanjeet.com.au",
+  "web": "www.sanjeet.com.au",
+  "summary": "Sanjeet wants to grow!!",
+  "exp": [
+    {
+      "title": "first title",
+      "year": "2003",
+      "des": {
+        "res1": "first",
+        "res2": "second"
+      }
+    },
+    {
+      "title": "second title",
+      "year": "2004",
+      "des": {
+        "res1": "first",
+        "res2": "second"
+      }
+    }
+  ],
+  "edu": [
+    {
+      "school": "Federation University",
+      "course": "Bachelors of Information Technology",
+      "year": "2013 - 2016"
+    },
+    {
+      "school": "Sterling College",
+      "course":"Advance Diploma in Hospitality Management",
+      "year":"2007 - 2009"
+    },
+    {
+      "school":"University of Wollongong",
+      "course":"Diploma in Information Technology",
+      "year":"2005"
+    }
+  ],
+  "skills": [
+    {
+      "field": "Frontend",
+      "set": ""
+    },
+    {
+      "field": "Backend",
+      "set": ""
+    },
+    {
+      "field": "API",
+      "set": ""
+    }
+  ]
+}

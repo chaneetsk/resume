@@ -1,0 +1,85 @@
+.header-wrap {
+  background-color: #222;
+  //height: 150px;
+  padding: 50px;
+  color: #fff;
+}
+
+.header-wrap p {
+  font-size: 16px
+}
+
+.summary-section, .exp-section,.edu-section,.skill-section {
+  padding: 20px 50px 20px 50px;
+  color: #222;
+}
+
+h2.sub-heading {
+  color: #1777cb
+}
+
+.list-table-title {
+  background: #f4f4f4;
+  height: 2.5em;
+  line-height: 2.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1px solid #b4b4b4;
+}
+
+.list-table-title span:nth-child(2) {
+  float: right;
+  font-weight: bold;
+}
+
+.list-table-title span:nth-child(1) {
+  float: left;
+  font-weight: bold;
+}
+
+.list-table-description {
+  border-left: 1px solid #b4b4b4;
+  border-right: 1px solid #b4b4b4;
+
+}
+
+.list-table-description ul {
+  clear: both;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 1em 1em 1em 4em;
+}
+
+.list-table-description ul li {
+  line-height: 1.5;
+}
+
+.list-table div:nth-last-child(1) .list-table-description {
+  border-bottom: 1px solid #b4b4b4;
+}
+
+.edu-section .list-table-edu {
+  border-top: 1px solid #b4b4b4;
+}
+
+.edu-section .list-table-edu:nth-last-child(1) {
+  border-bottom: 1px solid #b4b4b4;
+}
+
+.edu-section .list-table-edu header {
+  background: #f4f4f4;
+  height: 2.5em;
+  line-height: 2.5em;
+  border-bottom: 1px solid #b4b4b4;
+  padding-left: 1em;
+  font-weight: bold;
+}
+
+.edu-section .list-table-edu header+div{
+  padding-left: 1em;
+  line-height: 2.5em;
+}
+
+.edu-section .list-table-edu div span:nth-child(1) {
+  font-weight: 500;
+}
