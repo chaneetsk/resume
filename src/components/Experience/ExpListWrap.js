@@ -15,9 +15,9 @@ export default class Outer extends Component {
   }
 
   render(){
-    const itemTitle = this.props.exp.map(this.handleItems);
+    const eachExp = this.props.exp.map(this.handleItems);
     return (
-        <div className="list-table">{itemTitle}</div>
+        <div className="list-table">{eachExp}</div>
     );
   }
 }

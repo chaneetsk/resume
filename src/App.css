@@ -1,16 +1,28 @@
 .header-wrap {
-  background-color: #222;
-  //height: 150px;
+  background-color: #3684c9;
   padding: 50px;
   color: #fff;
 }
 
 .header-wrap p {
-  font-size: 16px
+  font-size: 16px;
+}
+
+.header-wrap p, .summary-section, .exp-section,.edu-section,.skill-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-wrap h1 {
+  max-width: 1000px;
+  margin: 0.25em auto 0.75em auto;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 3em;
 }
 
 .summary-section, .exp-section,.edu-section,.skill-section {
-  padding: 20px 50px 20px 50px;
+  padding: 15px 50px 20px 50px;
   color: #222;
 }
 
@@ -82,4 +94,37 @@ h2.sub-heading {
 
 .edu-section .list-table-edu div span:nth-child(1) {
   font-weight: 500;
+}
+
+.skill-section ul {
+  padding-left: 0;
+  border-top: 1px solid #b4b4b4;
+  border-right: 1px solid #b4b4b4;
+  border-left: 1px solid #b4b4b4;
+}
+.skill-section ul li {
+  list-style: none;
+  line-height: 2.5em;
+  border-bottom: 1px solid #b4b4b4;
+}
+.skill-section ul li span:first-child {
+  border-right: 1px solid #b4b4b4;
+  background: #f4f4f4;
+  display: inline-block;
+  line-height: 2.5em;
+  padding: 0 1em 0 1em;
+  width: 4em;
+}
+.skill-section ul li span:last-child {
+  display: inline-block;
+  line-height: 2.5em;
+  padding: 0 1em 0 1em;
+}
+
+@media screen and (max-width: 600px) {
+  .skill-section ul li span:first-child {
+    border-bottom: 1px solid #b4b4b4;
+    display: block;
+    width: inherit;
+  }
 }

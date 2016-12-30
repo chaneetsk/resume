@@ -43,15 +43,15 @@
   "skills": [
     {
       "field": "Frontend",
-      "set": ""
+      "set": "HTML5, CSS3, JS, JQUERY, AJAX"
     },
     {
       "field": "Backend",
-      "set": ""
+      "set": "PHP, MySql, CPanel, WHM"
     },
     {
-      "field": "API",
-      "set": ""
+      "field":"Tools",
+      "set": "Sublime Text, Atom, Jekyll"
     }
   ]
 }
