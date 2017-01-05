@@ -4,8 +4,8 @@ export default class InnerTop extends Component {
   render() {
     return (
       <header className="list-table-title">
-        <span>{this.props.title}</span>
-        <span>{this.props.year}</span>
+        <span>{this.props.title} ({this.props.year})</span>
+        <span></span>
       </header>
     );
   }

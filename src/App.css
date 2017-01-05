@@ -1,3 +1,9 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#root {
+  background-color: #f9f9f9;
+}
+
 .header-wrap {
   background-color: #3684c9;
   padding: 50px;
@@ -8,7 +14,7 @@
   font-size: 16px;
 }
 
-.header-wrap p, .summary-section, .exp-section,.edu-section,.skill-section {
+.header-wrap p, .summary-section, .exp-section,.edu-section,.skill-section,.ref-section,.gen-section {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -16,12 +22,17 @@
 .header-wrap h1 {
   max-width: 1000px;
   margin: 0.25em auto 0.75em auto;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   letter-spacing: 1.5px;
   font-size: 3em;
 }
 
-.summary-section, .exp-section,.edu-section,.skill-section {
+.header-wrap span i {
+  width: 1.2em;
+  color: #B2DDF7;
+}
+
+.summary-section, .exp-section,.edu-section,.skill-section,.ref-section{
   padding: 15px 50px 20px 50px;
   color: #222;
 }
@@ -32,7 +43,7 @@ h2.sub-heading {
 
 .list-table-title {
   background: #f4f4f4;
-  height: 2.5em;
+  //height: 2.5em;
   line-height: 2.5em;
   padding-left: 1em;
   padding-right: 1em;
@@ -45,7 +56,7 @@ h2.sub-heading {
 }
 
 .list-table-title span:nth-child(1) {
-  float: left;
+  //float: left;
   font-weight: bold;
 }
 
@@ -109,19 +120,42 @@ h2.sub-heading {
 }
 .skill-section ul li span:first-child {
   border-right: 1px solid #b4b4b4;
+  font-weight: bold;
   background: #f4f4f4;
   display: inline-block;
   line-height: 2.5em;
   padding: 0 1em 0 1em;
-  width: 4em;
+  width: 5em;
 }
 .skill-section ul li span:last-child {
   display: inline-block;
   line-height: 2.5em;
   padding: 0 1em 0 1em;
 }
+.gen-section {
+  padding: 15px 50px 60px 50px;
+  margin-top: -30px;
+}
+.gen-section button {
+  background: transparent;
+  line-height: 2.5em;
+  border: 1px solid #222;
+  color: #1777cb;
+  font-size: 0.9em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: all ease 0.8s;
+  box-shadow: 0px 0px 0px #1777cb inset;
+  text-transform: uppercase;
+}
 
-@media screen and (max-width: 600px) {
+.gen-section button:hover {
+  border: 1px solid #1777cb;
+  box-shadow: 0px -100px 0px #1777cb inset;
+  color: #fff;
+}
+
+@media screen and (max-width: 750px) {
   .skill-section ul li span:first-child {
     border-bottom: 1px solid #b4b4b4;
     display: block;

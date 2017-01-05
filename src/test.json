@@ -1,0 +1,56 @@
+{
+  "title": "John Citizen",
+  "add": "28 Hill St, Sydney, NSW 2000",
+  "tel": "0412121212",
+  "email": "hey@example.com",
+  "web": "www.example.com",
+  "summary": "Proin eget tortor risus. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Curabitur aliquet quam id dui posuere blandit.",
+  "exp": [
+    {
+      "title": "Frontend Developer, Creative Inc, Sydney",
+      "year": "2016 - Present",
+      "des": {
+        "res1": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
+        "res2": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
+        "res3": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
+        "res4": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+      }
+    },
+    {
+      "title": "Junior Web Developer, Creative Inc, Sydney",
+      "year": "2015 - 2016",
+      "des": {
+        "res1": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
+        "res2": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
+        "res3": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
+        "res4": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+      }
+    }
+  ],
+  "edu": [
+    {
+      "school": "Federation University",
+      "course": "Bachelors of Information Technology",
+      "year": "2013 - 2016"
+    },
+    {
+      "school": "Sterling College",
+      "course":"Advance Diploma in Hospitality Management",
+      "year":"2007 - 2009"
+    }
+  ],
+  "skills": [
+    {
+      "field": "Frontend",
+      "set": "HTML5, CSS3, JS, JQUERY, AJAX"
+    },
+    {
+      "field": "Backend",
+      "set": "PHP, MySql, CPanel, WHM"
+    },
+    {
+      "field":"Tools",
+      "set": "Sublime Text, Atom, Jekyll"
+    }
+  ]
+}

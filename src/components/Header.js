@@ -8,10 +8,10 @@ export default class Header extends Component {
       <header className="header-wrap">
         <Title title={this.props.title}/>
         <p>
-          <HeaderContent content={this.props.add}/><br/>
-          <HeaderContent content={this.props.tel}/><br/>
-          <HeaderContent content={this.props.email}/><br/>
-          <HeaderContent content={this.props.web}/><br/>
+          <HeaderContent className="fa fa-map-marker" content={this.props.add}/><br/>
+          <HeaderContent className="fa fa-mobile" content={this.props.tel}/><br/>
+          <HeaderContent className="fa fa-envelope-o" content={this.props.email}/><br/>
+          <HeaderContent className="fa fa-link" content={this.props.web}/><br/>
         </p>
       </header>
     );

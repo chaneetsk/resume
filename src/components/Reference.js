@@ -1,14 +1,13 @@
 import React,{Component} from 'react';
 import SubHeading from './Header/SubHeading';
-import SkillWrap from './Skills/SkillWrap';
 
-export default class Skills extends Component {
-
+export default class Reference extends React.Component {
   render() {
     return (
-      <section className="skill-section">
+      <section className="ref-section">
         <SubHeading heading={this.props.heading}/>
-        <SkillWrap skills={this.props.skills}/>
+        <p>Available on Request</p>
+        <br/><br/>
       </section>
     );
   }

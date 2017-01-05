@@ -4,22 +4,38 @@
   "tel": "0405373619",
   "email": "hey@sanjeet.com.au",
   "web": "www.sanjeet.com.au",
-  "summary": "Sanjeet wants to grow!!",
+  "summary": "Highly driven and performance focused self-taught Frontend Developer looking to secure a junior role.",
   "exp": [
     {
-      "title": "first title",
-      "year": "2003",
+      "title": "Freelance Web Developer | Sydney, AU",
+      "year": "Feb 2015 - Present",
       "des": {
-        "res1": "first",
-        "res2": "second"
+        "res1": "Developed various website using Wordpress.",
+        "res2": "Integrated various plugins as per the need of the website",
+        "res3": "Arranged domain and hosting for the client",
+        "res4": "Provide ongoing support and advices regarding business growth using SEM"
       }
     },
     {
-      "title": "second title",
-      "year": "2004",
+      "title": "Web Developer | Madan Puraskar Library | Kathmandu, NP",
+      "year": "Jan 2016 - Oct 2016",
       "des": {
-        "res1": "first",
-        "res2": "second"
+        "res1": "Website content development and management.",
+        "res2": "Designed and developed websites using Wordpress.",
+        "res3": "Administered web server control panel.",
+        "res4": "Tested open source softwares and implemented.",
+        "res5": "Implemented custom codes if required."
+      }
+    },
+    {
+      "title": "Implementation Consultant / Web Development Team | Crossover Web | Sydney, AU",
+      "year": "Jan 2014 - Jul 2015",
+      "des": {
+        "res1":"Implemented and managed software solution specialised towards the restaurant industries.",
+        "res2":"Assessed the impact of changes and developed detailed report.",
+        "res3":"Acted as a subject matter between customer and development team.",
+        "res4":"Provided technical training and support to customers.",
+        "res5":"Liaised with various customers for design and developing issues regarding website."
       }
     }
   ],
@@ -43,15 +59,15 @@
   "skills": [
     {
       "field": "Frontend",
-      "set": "HTML5, CSS3, JS, JQUERY, AJAX"
+      "set": "HTML5, CSS3, SASS, Javascript, JQUERY, AJAX, React JS (beginner), JSX, ES6"
     },
     {
       "field": "Backend",
-      "set": "PHP, MySql, CPanel, WHM"
+      "set": "PHP, MySQL, Wordpress, cPanel, WHM, MAMP"
     },
     {
-      "field":"Tools",
-      "set": "Sublime Text, Atom, Jekyll"
+      "field":"Built Tools",
+      "set": "Gulp, Grunt, NPM, Jekyll"
     }
   ]
 }
