@@ -15,4 +15,4 @@ build
 npm-debug.log
 
 #specific file
-data.json
+./src/data.json
