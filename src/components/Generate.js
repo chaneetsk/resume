@@ -31,7 +31,8 @@ export default class Generate extends Component {
       doc.setFontSize(10);
       doc.setTextColor(150);
       doc.setFontType("normal");
-      doc.text(20,85,_data.summary);
+      doc.text(20,85,"Highly driven and performance focused self-taught Frontend Developer looking to secure a junior role that will");
+      doc.text(20,90,"offer opportunity for continuous growth.");
 
       doc.setFontSize(18);
       doc.setTextColor(23,119,203);

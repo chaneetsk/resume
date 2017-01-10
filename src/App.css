@@ -5,7 +5,7 @@
 }
 
 .header-wrap {
-  background-color: #3684c9;
+  background-color: #1777cb;
   padding: 50px;
   color: #fff;
 }
@@ -160,5 +160,8 @@ h2.sub-heading {
     border-bottom: 1px solid #b4b4b4;
     display: block;
     width: inherit;
+  }
+  .gen-section {
+    display: none;
   }
 }
