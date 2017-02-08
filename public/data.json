@@ -1,0 +1,74 @@
+{
+  "title": "Sanjeet Kanwar",
+  "add": "28 Hill St, Carlton, NSW 2218",
+  "tel": "0405373619",
+  "email": "hey@sanjeet.com.au",
+  "web": "www.sanjeet.com.au",
+  "linkedIn": "www.linkedin.com/in/sanjeetkanwar",
+  "summary": "Highly driven and performance focused self-taught Frontend Developer looking to secure a Frontend role that will offer opportunity for continuous growth.",
+  "exp": [
+    {
+      "title": "Freelance Web Developer | sanjeet.com.au | Sydney, AU",
+      "year": "Feb 2015 - Present",
+      "des": {
+        "res1": "Built and maintained various wordpress websites.",
+        "res2": "Integrated various plugins in accordance to customer's need.",
+        "res3": "Performed cross browser and cross platform testing.",
+        "res4": "Performed activities to optimize websites for SEO and advices regarding SEM."
+      }
+    },
+    {
+      "title": "Junior Web Developer | Madan Puraskar Library | Kathmandu, NP",
+      "year": "Jan 2016 - Oct 2016",
+      "des": {
+        "res1": "Website content development and management.",
+        "res2": "Designed and developed websites using Wordpress.",
+        "res3": "Administered web server control panel.",
+        "res4": "Tested open source softwares and implemented.",
+        "res5": "Implemented custom codes if required."
+      }
+    },
+    {
+      "title": "Implementation Consultant / Web Development Team | Crossover Web | Sydney, AU",
+      "year": "Jan 2014 - Jul 2015",
+      "des": {
+        "res1":"Implemented and managed software solution specialised towards the restaurant industries.",
+        "res2":"Assessed the impact of changes and developed detailed report.",
+        "res3":"Acted as a subject matter between customer and development team.",
+        "res4":"Provided technical training and support to customers.",
+        "res5":"Liaised with various customers for design and developing issues regarding the website."
+      }
+    }
+  ],
+  "edu": [
+    {
+      "school": "Federation University",
+      "course": "Bachelors of Information Technology",
+      "year": "2013 - 2016"
+    },
+    {
+      "school": "Sterling College",
+      "course":"Advance Diploma in Hospitality Management",
+      "year":"2007 - 2009"
+    },
+    {
+      "school":"University of Wollongong",
+      "course":"Diploma in Information Technology",
+      "year":"2005"
+    }
+  ],
+  "skills": [
+    {
+      "field": "Frontend",
+      "set": "HTML5, CSS3, SASS, Javascript, JQUERY, AJAX, React JS (beginner), JSX, ES6"
+    },
+    {
+      "field": "Backend",
+      "set": "PHP, MySQL, Wordpress, cPanel, WHM, MAMP"
+    },
+    {
+      "field":"Built Tools",
+      "set": "Gulp, Grunt, NPM, Jekyll"
+    }
+  ]
+}
