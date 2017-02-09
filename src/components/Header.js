@@ -14,6 +14,7 @@ export default class Header extends Component {
           <HeaderContent className="fa fa-mobile" content={this.props.tel}/><br/>
           <HeaderContent className="fa fa-envelope-o" content={this.props.email}/><br/>
           <HeaderContent className="fa fa-link" content={this.props.web}/><br/>
+          <HeaderContent className="fa fa-linkedin" content={this.props.linkedIn}/><br/>
         </p>
       </header>
     );
