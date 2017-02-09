@@ -203,6 +203,22 @@ h2.sub-heading {
   color: #fff;
 }
 
+.footer-section hr {
+  max-width: 95%;
+  border: 1px solid #c4c4c4
+}
+
+.footer-section div {
+  max-width: 500px;
+  margin: 15px auto;
+}
+
+.footer-section div span {
+  font-size: 0.75em;
+  text-align: center;
+  display: block;
+}
+
 @media screen and (max-width: 750px) {
   .skill-section ul li span:first-child {
     border-bottom: 1px solid #b4b4b4;

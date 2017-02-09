@@ -6,6 +6,7 @@ import Education from './Education';
 import Skills from './Skills';
 // import Reference from './Reference';
 // import Generate from './Generate';
+import Footer from './Footer';
 import axios from 'axios';
 
 //import customData from '../data.json';
@@ -55,6 +56,7 @@ export default class AppLayout extends Component {
         <Skills heading="Skills" skills={this.state.content.skills}/>
         {/*<Reference />*/}
         {/*}<Generate data={this.state.content}/>*/}
+        <Footer />
       </div>
     );
   }
