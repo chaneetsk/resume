@@ -5,8 +5,18 @@
   "email": "hey@sanjeet.com.au",
   "web": "www.sanjeet.com.au",
   "linkedIn": "www.linkedin.com/in/sanjeetkanwar",
-  "summary": "Highly driven and performance focused self-taught Frontend Developer looking to secure a frontend role that will offer opportunity for continuous growth.",
+  "summary": "Highly driven and performance focused self-taught Frontend Developer looking to secure a junior role that will offer opportunity for continuous growth.",
   "exp": [
+    {
+      "title": "Junior Web Developer | Crossover Web | Sydney, AU",
+      "year": "Dec 2016 - Present",
+      "des": {
+        "res1": "Build and maintained CMS using wordpress.",
+        "res2": "Integrated various plugins in accordance to customer’s need.",
+        "res3": "Integrated various third party APIs.",
+        "res4": "Optimized html pages for better SEO."
+      }
+    },
     {
       "title": "Freelance Web Developer | sanjeet.com.au | Sydney, AU",
       "year": "Feb 2015 - Present",
